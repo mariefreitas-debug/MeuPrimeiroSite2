@@ -20,4 +20,15 @@
     <button>🫶<span></span></button>
   </main>
 </body>
+<script>
+  const botoes = documen.querySelectorALL("button");
+  botoes.forEach(function(botao){
+    botao.addEventListener("click, botaclicado");
+    function botaoclicado(){
+      let texto = botao.querySelector("span"); 
+      texto.textContent++;
+    }
+  })    
+
+</script>
 </html>
